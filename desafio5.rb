@@ -1,6 +1,8 @@
-# Crie um codigo que possua um metodo que resolva a
-# potencia dado um número base e seu expoente. Este dois
-# valores devem ser informados pelo usuário
+=begin 
+Crie um codigo que possua um metodo que resolva a
+potencia dado um número base e seu expoente. Este dois
+valores devem ser informados pelo usuário 
+=end
 
 1.times do
   puts "Resolvendo potencia de um numero base, ao seu expoente"
@@ -10,7 +12,6 @@
 
   def potencia
     result = @number1 * @number1
-
     puts "o resultado do valor pelo expoente é #{result}"
   end
 
@@ -18,7 +19,6 @@
 end
 
 # Iprimindo cpf valido
-
 require "cpf_cnpj"
 
 puts "me passa seu cpf:"

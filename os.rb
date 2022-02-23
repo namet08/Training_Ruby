@@ -8,7 +8,7 @@ def my_os
   elsif OS.mac?
     "Mac"
   else
-    "Não consegui identificar"
+    puts "Não consegui identificar"
   end
 end
 
