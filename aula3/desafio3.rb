@@ -1,4 +1,4 @@
-require_relative "../aula3/metod3.rb"
+require_relative "metod3"
 include Opt
 
 loop do
